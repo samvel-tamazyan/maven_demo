@@ -43,7 +43,7 @@ public class DBConnectionProvider {
     private void loadProperties() {
         Properties properties = new Properties();
         properties.load(new FileInputStream(
-                "C:\\Users\\Margarita_Murazyan\\Desktop\\maven_demo\\src\\main\\resources\\application.properties"));
+                "C:\\Users\\UserPc\\Desktop\\maven_demo\\src\\main\\resources\\application.properties"));
         driverName = properties.getProperty("db.driver.class.name");
         dbUrl = properties.getProperty("db.url");
         username = properties.getProperty("db.username");
