@@ -12,11 +12,8 @@ import lombok.experimental.SuperBuilder;
 @ToString
 @SuperBuilder
 public class User extends Base {
-
-
     private String name;
     private String surname;
-
     private String email;
     private String password;
     private Integer age;
